@@ -1,0 +1,2 @@
+D:\RGUWebCrawler\bin\Microsoft.PythonTools.WebRole.dll
+D:\RGUWebCrawler\bin\wfastcgi.py

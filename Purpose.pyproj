@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{20384e5c-abfa-4818-a8f6-018a8f7f40f6}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>admin.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.7</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\karma.conf.js" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\protractor.conf.js" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\account\account.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\account\layout\account-languages.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\account\login\login.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\account\register\register.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\account\tenant\tenant-change-dialog.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\account\tenant\tenant-change.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\about\about.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\app.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\home\home.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\layout\right-sidebar.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\layout\sidebar-footer.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\layout\sidebar-nav.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\layout\sidebar-user-area.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\layout\topbar-languageswitch.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\layout\topbar.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\roles\create-role\create-role-dialog.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\roles\edit-role\edit-role-dialog.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\roles\roles.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\tenants\create-tenant\create-tenant-dialog.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\tenants\edit-tenant\edit-tenant-dialog.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\tenants\tenants.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\users\change-password\change-password.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\users\create-user\create-user-dialog.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\users\edit-user\edit-user-dialog.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\users\reset-password\reset-password.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\app\users\users.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\assets\app-logo-small.png" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\assets\fonts\roboto\roboto.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\assets\images\user.png" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\materialize.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\style.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\style.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\all-themes.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\all-themes.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-amber.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-amber.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-black.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-black.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-blue-grey.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-blue-grey.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-blue.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-blue.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-brown.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-brown.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-cyan.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-cyan.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-deep-orange.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-deep-orange.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-deep-purple.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-deep-purple.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-green.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-green.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-grey.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-grey.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-indigo.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-indigo.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-light-blue.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-light-blue.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-lime.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-lime.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-orange.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-orange.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-pink.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-pink.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-purple.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-purple.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-red.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-red.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-teal.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-teal.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-yellow.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes\theme-yellow.min.css" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\images\user-img-background.jpg" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\js\admin.js" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\js\demo.js" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\js\helpers.js" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\js\jquery.validate.js" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\favicon.ico" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\index.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\src\shared\pagination\abp-pagination-controls.component.html" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\wwwroot\swagger\ui\abp.js" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\wwwroot\swagger\ui\abp.swagger.js" />
+    <Content Include="5.2.0\src\PurposeCMS.Web.Host\wwwroot\swagger\ui\index.html" />
+    <Content Include="5.2.0\_screenshots\ui-home.png" />
+    <Content Include="5.2.0\_screenshots\ui-login.png" />
+    <Content Include="5.2.0\_screenshots\ui-user-create-modal.png" />
+    <Content Include="migrations\alembic.ini" />
+    <Content Include="obj\Debug\RGUWebCrawler.pyproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\RGUWebCrawler1.pyproj.FileListAbsolute.txt" />
+    <Content Include="requirements.txt" />
+    <Content Include="SAWA.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.py" />
+    <Compile Include="api\auth\controllers.py" />
+    <Compile Include="api\auth\services.py" />
+    <Compile Include="api\auth\__init__.py" />
+    <Compile Include="api\blueprints.py" />
+    <Compile Include="api\config.py" />
+    <Compile Include="api\core.py" />
+    <Compile Include="api\db.py" />
+    <Compile Include="api\email.py" />
+    <Compile Include="api\entities\ai\models.py" />
+    <Compile Include="api\entities\ai\services.py" />
+    <Compile Include="api\entities\ai\__init__.py" />
+    <Compile Include="api\entities\ArticalInfo.py" />
+    <Compile Include="api\entities\controllers.py" />
+    <Compile Include="api\entities\cronjobs\models.py" />
+    <Compile Include="api\entities\cronjobs\services.py" />
+    <Compile Include="api\entities\cronjobs\__init__.py" />
+    <Compile Include="api\entities\models.py" />
+    <Compile Include="api\entities\sawa\models.py" />
+    <Compile Include="api\entities\sawa\services.py" />
+    <Compile Include="api\entities\sawa\__init__.py" />
+    <Compile Include="api\entities\services.py" />
+    <Compile Include="api\entities\__init__.py" />
+    <Compile Include="api\logger.py" />
+    <Compile Include="api\tokens\auth\controllers.py" />
+    <Compile Include="api\tokens\auth\services.py" />
+    <Compile Include="api\tokens\auth\__init__.py" />
+    <Compile Include="api\tokens\create\models.py" />
+    <Compile Include="api\tokens\create\__init__.py" />
+    <Compile Include="api\tokens\__init__.py" />
+    <Compile Include="api\__init__.py" />
+    <Compile Include="apps.py" />
+    <Compile Include="assignment_1.py" />
+    <Compile Include="bin\wfastcgi.py" />
+    <Compile Include="comon.py" />
+    <Compile Include="development.py" />
+    <Compile Include="migrations\env.py" />
+    <Compile Include="migrations\versions\174d50e442a7_.py" />
+    <Compile Include="migrations\versions\1b5a5f24bab8_.py" />
+    <Compile Include="migrations\versions\1eb0aa9b8154_.py" />
+    <Compile Include="migrations\versions\256dbaafec5c_.py" />
+    <Compile Include="migrations\versions\52096edca91f_.py" />
+    <Compile Include="migrations\versions\60c620b6c66d_.py" />
+    <Compile Include="migrations\versions\8078be0b1088_.py" />
+    <Compile Include="migrations\versions\87ece267af7c_.py" />
+    <Compile Include="migrations\versions\aba63b4e455e_.py" />
+    <Compile Include="migrations\versions\bb05c85d4f11_.py" />
+    <Compile Include="migrations\versions\bfe299cf9dc7_.py" />
+    <Compile Include="migrations\versions\c3b530325c51_.py" />
+    <Compile Include="migrations\versions\c969555cf1a2_.py" />
+    <Compile Include="migrations\versions\cae15343730c_.py" />
+    <Compile Include="migrations\versions\da2ad4a07f20_.py" />
+    <Compile Include="migrations\versions\e27fe1ac4050_.py" />
+    <Compile Include="migrations\versions\f0343bec48e2_.py" />
+    <Compile Include="models.py" />
+    <Compile Include="pagination.py" />
+    <Compile Include="permissions.py" />
+    <Compile Include="production.py" />
+    <Compile Include="rest.py" />
+    <Compile Include="restful.py" />
+    <Compile Include="serializers.py" />
+    <Compile Include="settings\common.py" />
+    <Compile Include="settings\development.py" />
+    <Compile Include="settings\production.py" />
+    <Compile Include="urls.py" />
+    <Compile Include="word_count.py" />
+    <Compile Include="wsgi.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="5.2.0\" />
+    <Folder Include="5.2.0\src\" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\account" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\account\layout" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\account\login" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\account\register" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\account\tenant" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app\about" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app\home" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app\layout" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app\roles" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app\roles\create-role" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app\roles\edit-role" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app\tenants" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app\tenants\create-tenant" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app\tenants\edit-tenant" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app\users" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app\users\change-password" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app\users\create-user" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app\users\edit-user" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\app\users\reset-password" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\assets" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\assets\fonts\" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\assets\fonts\roboto" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\assets\images" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\css\themes" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\images" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\bsb-theme\js" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\shared\" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\src\shared\pagination" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\wwwroot\" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\wwwroot\swagger\" />
+    <Folder Include="5.2.0\src\PurposeCMS.Web.Host\wwwroot\swagger\ui" />
+    <Folder Include="5.2.0\_screenshots" />
+    <Folder Include="api" />
+    <Folder Include="api\auth" />
+    <Folder Include="api\entities" />
+    <Folder Include="api\entities\ai" />
+    <Folder Include="api\entities\cronjobs" />
+    <Folder Include="api\entities\sawa" />
+    <Folder Include="api\tokens" />
+    <Folder Include="api\tokens\auth" />
+    <Folder Include="api\tokens\create" />
+    <Folder Include="bin" />
+    <Folder Include="migrations" />
+    <Folder Include="migrations\versions" />
+    <Folder Include="obj\" />
+    <Folder Include="obj\Debug" />
+    <Folder Include="settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Description>env (Python 3.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <Version>3.7</Version>
+      <Architecture>X64</Architecture>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
