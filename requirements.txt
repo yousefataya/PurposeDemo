@@ -1,4 +1,4 @@
-pip==19.2.3
+pip==21.1
 setuptools==41.2.0
 alembic==1.0.9
 bcrypt==3.1.6
